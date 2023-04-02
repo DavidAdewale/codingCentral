@@ -1,0 +1,688 @@
+
+/* Element Classes - All widths */
+*{
+    color: #fff;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #101214;
+}
+
+h1{
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 600;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+span{
+    display: inline-block;
+}
+
+h2 > span {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+div > h2 {
+    margin-top: 5%;
+    padding-bottom: 2%;
+}
+
+footer{
+    background: conic-gradient(from -90deg at 50% 0%, #2A2E20 0deg, #181C1F 360deg), #D9D9D9;
+    margin-top: 50px;
+}
+
+/* Classes and Pseudo Classes */
+
+.dropdown-item:hover{
+        background-color: #00E101;
+        color: #101214;
+}
+    
+.dropdown-item:active{
+        background-color: #017702;
+        color: #101214;
+}
+
+.log-img-foot{
+    padding-top: 30px;
+    width: 40%;
+   }
+
+/* Accordion  */
+
+.accordion-button:not(.collapsed) {
+    color: #00E101; 
+}    
+  
+.accordion-button:not(.collapsed)::after {
+    color: #fff;
+}
+
+.accordion-item{
+    padding: 2%;
+}
+
+.accordion-item .accordion-button {
+    background-color: #101214;
+    border-bottom: 1px solid #fff;
+}
+
+.accordion-item .accordion-button:not(.collapsed) {
+    background-color: #101214;
+}
+  
+.accordion-body{
+    background-color: #101214;
+}
+
+.accordion-header{
+    width: 100%;
+    height: auto;
+}
+
+
+.card{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    text-align: left;
+}
+
+.card-title{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.card-body{
+    padding-bottom: 5%;
+}
+
+.card-text{
+    font-size: 1.2rem;
+    padding-top: 0;
+    padding-bottom: 5%;
+}
+
+.cardsection{
+    padding-top: 10px;
+}
+
+.glow{
+    box-shadow: 0px 26px 88px -23px rgba(0, 225, 1, 0.15);
+}
+
+.dropdown-menu {
+    background-color: #101214;
+}
+  
+
+.padding-top{
+    padding-top: 30px;
+}  
+
+.center{
+    width: 60%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.btn{
+    padding: 5px 30px 5px 30px;
+    background-color: #00E101;
+    color: #1E1E1E;
+
+}
+
+.btn:hover{
+    background-color: #017702;
+    color: #fff;
+}
+
+
+
+.hero-sec{
+    background: rgb(16,18,20);
+    background: radial-gradient(97.71% 97.71% at 50% 0%, #2A2E20 0%, #101214 56.77%);
+    /* height: 1080px; */
+
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+
+.bigbtn{
+    padding: 15px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.buttonprimary{
+    background-color: #00E101;
+    color: #1e1e1e;
+    transition: all 350ms;
+}
+
+.buttonprimary:hover{
+    background-color: #017702;
+    color: #fff;
+}
+
+.buttonsecondary{
+    background-color: rgba(0, 0, 0, 0);
+    color: #00E101;
+    border: 1px solid #00E101;
+    transition: all 350ms;
+}
+
+.buttonsecondary:hover{
+    background-color: #017702;
+    color: #fff;
+}
+
+.buttonwhite{
+    background-color: #fff;
+    color: #101214;
+    transition: all 350ms;
+}
+
+.buttonwhite:hover{
+    background-color: #101214;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+
+.greentext{
+    color: #00E101;
+}
+
+.foot-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.less{
+    padding-bottom: 20px;
+}
+
+.foot-link{
+    transition: all 450ms;
+}
+
+.foot-link:hover{
+    color: #00E101;
+}
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 550px) {
+    /* For mobile devices - Portrait */
+    
+    /* Element Classes */
+    p{
+     margin-bottom: 0;
+     margin-top: 8%;
+    }
+    
+     h1{
+         font-size: 2rem;
+     }
+     
+     img{
+         width: 100%;
+     }
+     
+     h4{
+        font-size: 1.4rem;
+     }
+
+     h2{
+        padding-top: 15px;
+     }
+     
+
+     /* Classes and Pseudo Classes */
+     
+     .margin{
+         width: 95%;
+         margin: auto;
+     }
+
+     
+     .log-img{
+      width: 60%;
+     }
+
+     
+     
+     .logos{
+        width: 20%;
+        margin-left: 15px;
+     }
+
+     .flex{
+         padding-top: 40px;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         gap: 30px;
+         height: auto;
+     }
+
+     .twocol{
+         width: 90%;
+         text-align: center;
+     }
+
+     .heroimg{
+         width: 80%;
+         display: flex;
+         justify-content: center;
+     }
+
+     .bigbtn{
+         padding: 10px 20px;
+         border-radius: 8px;
+         text-decoration: none;
+         font-size: 1rem;
+         font-weight: 400;
+         cursor: pointer;
+         width: 100%;
+    }
+
+    .options{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .center{
+        width: 100%;
+    }
+    
+    .card-title{
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    
+    .card-text{
+        font-size: 1rem;
+        padding-top: 0;
+        padding-bottom: 8%;
+    }
+
+    .card-img-top{
+        width: 92%;
+        margin: auto;
+    }
+
+    .width{
+        width: 100%;
+    }
+
+    .col{
+        padding-bottom: 5%;
+    }
+    
+    .accordion-flush{
+    width: 100%;
+    }
+
+    .bottom-padding{
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .foot-list{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 0;
+    }
+
+
+    .foot-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .resize{
+        width: 50%;
+    }
+
+
+    
+
+
+  }
+
+
+  @media (min-width: 551px) and (max-width: 1025px) {
+    
+    /* For mobile devices - Landscape */
+
+    p{
+        margin-bottom: 0;
+        margin-top: 8%;
+    }
+
+    img{
+        width: 80%;
+    }
+    
+    h2{
+        padding-top: 10%;
+        padding-bottom: 30px;
+        font-size: 2rem;
+        width: 60%;
+        margin: auto;
+    }
+
+    div > p{
+      padding-top: 5%;
+        font-size: 1.2rem;
+       }
+  
+    h1{
+        font-size: 3rem;
+    }
+
+    /* Classes and Pseudo Classes */
+    .margin{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .log-img{
+        width: 60%;
+    }
+
+    .logos{
+        width: 20%;
+        margin-left: 15px;
+    }
+       
+
+    .width{
+        width: 100%;
+    }
+    
+    .flex{
+        padding-top: 8%;
+        flex-direction: row;
+       align-items: center;
+       justify-content: space-between;
+        gap: 5px;
+        height: auto;
+    }
+    
+
+
+    .twocol{
+        width: 60%;
+        text-align: left;
+    }
+    
+    .bigbtn{
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 400;
+        cursor: pointer;
+        width: auto;
+    }
+
+    .heroimg{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+ 
+    .width{
+        text-align: center;
+        justify-content: center;
+    }
+
+    
+
+    .center{
+        width: 85%;
+    }
+
+    
+    
+    .row{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .card-img-top{
+        width: 50%;
+        margin: auto;
+    }
+
+    .card-title{
+        font-size: 1.4rem;
+    }
+
+    .card-text{
+        padding-top: 2%;
+        margin-top: 2%;
+        padding-bottom: 5%;
+        width: 60%;
+        margin: auto;
+    }
+
+    .foot-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 35px;
+        padding: 50px 0;
+    }
+
+    .foot-flex{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        justify-content: center;
+        margin: auto;
+    }
+   
+}
+
+    
+
+    
+  
+  
+  @media only screen and (min-width: 1026px) {
+/* For iPad     */
+/* Element classes  */
+    p{
+        padding-top: 30px;
+    }
+
+    h2{
+        font-size: 2.4rem;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        width: 60%;
+        margin: auto;
+    }
+
+/* Classes and Pseudo Classes */
+
+    .margin{
+        width: 90%;
+        margin: auto;
+    }
+
+    .logos{
+        display: inline-block;
+        width: 15%;
+        margin-left: 25px;
+    }
+    
+    .flex{
+        padding-top: 10%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        height: auto;
+    }
+
+    .twocol{
+        width: 50%;
+    }`
+
+    
+
+    .foot-link{
+        width: auto;
+    }
+
+    .foot-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 35px;
+        justify-content: space-between;
+        padding: 60px 0;
+    }
+
+    .foot-flex{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        justify-content: start;
+        align-items: start;
+        /* margin: auto; */
+    }
+   
+    
+    .bigbtn{
+        padding: 5px 15px;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+
+    .card-title{
+        font-size: 1.4rem;
+    }
+
+    .card-text{
+        font-size: 1rem;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    /* For bigger screens */
+
+    /* Element Classes */
+
+    body{
+        font-size: 1.2rem;
+    }
+
+    div > p{
+     padding-top: 5%;
+     font-size: 1.6rem;
+    }
+
+    h1{
+        font-size: 5rem;
+        margin-bottom: 30px;
+    }
+    
+    img{
+        width: 70%;
+    }
+    
+    h2{
+        padding-top: 10%;
+        font-size: 3rem;
+        width: 45%;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+
+    h3{
+        font-size: 2.8rem;
+    }
+
+    /* Classes and Pseudo Classes */
+    
+    .margin{
+        width: 85%;
+        margin: auto;
+    }
+
+    .logos{
+        display: inline-block;
+        width: 15%;
+        margin-left: 25px;
+       }
+
+    .twocol{
+        width: 54%;
+        text-align: left;
+    }
+
+    .flex{
+        padding-top: 5%;
+    }
+
+    .options{
+        display: flex;
+        gap: 20px;
+    }
+
+    .padding-top{
+        padding-top: 5%;
+    }
+
+    .heroimg{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+  }
+
